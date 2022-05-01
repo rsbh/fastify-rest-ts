@@ -1,0 +1,25 @@
+{
+  "name": "fastify-rest-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsbh/fastify-rest-ts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsbh/fastify-rest-ts/issues"
+  },
+  "homepage": "https://github.com/rsbh/fastify-rest-ts#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "fastify-tsconfig": "^1.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
