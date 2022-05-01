@@ -12,6 +12,17 @@ async function healthRoute(
   fastify.route({
     url: "/health",
     method: "GET",
+    schema: {
+      response: {
+        200: {
+          description: "Successful response",
+          type: "object",
+          properties: {
+            message: { type: "string" },
+          },
+        },
+      },
+    },
     handler: async (request, reply) => {
       return reply.send({ message: "OK" });
     },
